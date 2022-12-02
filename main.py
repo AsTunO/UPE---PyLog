@@ -205,7 +205,6 @@ def average_requests_post() -> None:
             total_post_requests_with_success += 1
             http_status, request_size = http_status_data[0].split()
             sum_of_all_post_requests_with_success_length += int(request_size)
-
     clean()
     show_time(initial_time)
     access_log.close()
