@@ -211,7 +211,6 @@ def average_requests_post() -> None:
     average_of_all_post_requests_with_success = sum_of_all_post_requests_with_success_length / total_post_requests_with_success
     print(f"Média das requisições POST de 2021 respondidas com sucesso: {average_of_all_post_requests_with_success:.4f}")
 
-
 # Main function
 def menu() -> None:
 
